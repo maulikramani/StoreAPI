@@ -1,0 +1,27 @@
+{
+  "name": "storeapi",
+  "version": "1.0.0",
+  "description": "This is created for learning purpose",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "storeApi",
+    "mern"
+  ],
+  "author": "Maulik Ramani",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-openapi": "^10.0.0",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
